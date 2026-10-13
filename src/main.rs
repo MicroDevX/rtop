@@ -489,8 +489,3 @@ fn main() -> std::io::Result<()> {
     ratatui::restore();
     result
 }
-
-// دالة التوافق مع DefaultTerminal الخاص بـ Ratatui
-fn main_terminal(terminal: &mut DefaultTerminal) -> &mut DefaultTerminal {
-    terminal
-}
